@@ -11,6 +11,8 @@ body {
   align-items: center;
   height: 100vh;
   background-color: #f4f4f9;
+  transform: scale(0.6); /* Scale down to 60% */
+  transform-origin: top left; /* Ensure scaling starts from the top left */
 }
 
 .container {
